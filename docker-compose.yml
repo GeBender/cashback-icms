@@ -49,10 +49,10 @@ services:
       - "db"
       - "redis"
   sidekiq:
-    build: ../
+    build: ./
     command: bundle exec sidekiq
     volumes:
-      - ../:/app
+      - ./:/app
     environment:
       RAILS_ENV: development
       REDIS_HOST: redis
