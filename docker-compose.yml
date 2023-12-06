@@ -42,6 +42,7 @@ services:
     volumes:
       - ./:/app
       - bundle:/bundle
+      - /home/gebender/Documentos/Cashback/sample:/app/sample
     ports:
       - "3001:3000"
     depends_on:
