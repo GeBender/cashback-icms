@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module ApplicationHelper
-  include Pagy::Frontend
+  # include Pagy::Frontend
 
   def url_nav(pairs)
     query = parse_query(request)

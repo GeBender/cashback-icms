@@ -13,7 +13,6 @@ class ImportJob < ApplicationJob
 
     traverse_directory(company, directory)
     apply_events(company)
-    company.set_margins_and_avarages
     sumarize(company)
 
     logger.info('Job de IMPORTÇÃO concluído!')

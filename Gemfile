@@ -32,6 +32,7 @@ gem "redis", "~> 4.0"
 gem 'sidekiq'
 gem 'redis-rails'
 gem 'delayed_job_web'
+gem 'pagy'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"

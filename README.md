@@ -32,7 +32,7 @@ Agora, acesse o container e conclua a instalação:
 Abra o projeto dentro do container utilizando sua ferramenta de trabalho, para o VsCode: ```code .``` e utilize a extensão Dev Containers para dar sequência ao desenvolvimento.
 
 ## Importação das notas fiscais
-O Primeiro passo é a importação das notas fiscais. No **Seed** já criamos uma *Company* com a Inscrição Estadual **000000011**. A inscrição Estadual é a chave neste contexto.
+O Primeiro passo é a importação das notas fiscais. No **Seed** já criamos uma *Company* com a Inscrição Estadual **283426055**. A inscrição Estadual é a chave neste contexto.
 
 Utilizaremos um endpoint que pode ser acionado por exeplo pelo Postman, onde informaremos a inscrição estadual e a pasta onde estão as notas fiscais no seu dispositivo. Esta rotina utilizará um Delayed Job pois em uma grande massa de dados pode levar muitos minutos para concluir a tarefa, possibilitando assim que o servidor fique liberado para outras atividades.
 
@@ -47,7 +47,7 @@ O serviço de importação irá ler todos os arquivos XML de maneira recursiva e
 
 ```json
 {
-    "ie" : "000000011",
-    "path" : "/caminho/das/notas",
+    "ie" : "283426055",
+    "path" : "/sample-invoices",
 }
 ```

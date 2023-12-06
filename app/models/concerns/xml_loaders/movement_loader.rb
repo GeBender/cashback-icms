@@ -117,7 +117,8 @@ module XmlLoaders
 
     def correct_taxes(ncm)
       new_pmc = EanPmc.find_pmc(cEANTrib, invoice_date)
-      new_aliquot = Aliquot.find_aliquot(ncm)&.internal_aliquot
+      aliquot = Aliquot.find_aliquot(ncm)
+      new_aliquot = aliquot&.internal_aliquot if aliquot
 
       self.pmc = new_pmc if new_pmc
       self.aliquot = new_aliquot if new_aliquot

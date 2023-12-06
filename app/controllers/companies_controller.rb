@@ -21,7 +21,7 @@ class CompaniesController < ApplicationController
   end
 
   def import_test
-    ie = '000000011'
+    ie = '283426055'
     path = '/sample-invoices'
 
     ImportJob.perform_now(ie, path)
