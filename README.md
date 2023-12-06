@@ -13,13 +13,41 @@ Crie a base de dados, execute as migrations e popule o banco com o seed básico:
 
     docker build .
     docker-compose run web bundle install
-    docker-compose run web rake db:create
-    docker-compose run web rake db:migrate
-    docker-compose run web rake db:seed
-    docker-compose up
 
 \
-**Guard**: Para trabalhar com o guard ativado e facilitar o acompanhamento dos seus testes:  
+Agora, acesse o container e conclua a instalação:
 
-    docker-compose run web bundle exec guard
+    docker exec -it cashback-icms_web_1 /bin/bash
+    rake db:create
+    rake db:migrate
+    rake db:seed
 
+
+\
+**Guard**: Para trabalhar com o guard ativado e facilitar o acompanhamento dos seus testes, rode o Guard em um novo terminal, a partir do container:
+
+    bundle exec guard
+
+
+Abra o projeto dentro do container utilizando sua ferramenta de trabalho, para o VsCode: ```code .``` e utilize a extensão Dev Containers para dar sequência ao desenvolvimento.
+
+## Importação das notas fiscais
+O Primeiro passo é a importação das notas fiscais. No **Seed** já criamos uma *Company* com a Inscrição Estadual **000000011**. A inscrição Estadual é a chave neste contexto.
+
+Utilizaremos um endpoint que pode ser acionado por exeplo pelo Postman, onde informaremos a inscrição estadual e a pasta onde estão as notas fiscais no seu dispositivo. Esta rotina utilizará um Delayed Job pois em uma grande massa de dados pode levar muitos minutos para concluir a tarefa, possibilitando assim que o servidor fique liberado para outras atividades.
+
+O serviço de importação irá ler todos os arquivos XML de maneira recursiva e salvará os dados relevantes para o pedido de ressarcimento no banco de dados.
+
+\
+```POST http://localhost:3001/import/```
+ 
+```Content-Type: application/json```
+    
+```Body raw (json)```
+
+```json
+{
+    "ie" : "000000011",
+    "path" : "/caminho/das/notas",
+}
+```
