@@ -47,7 +47,24 @@ O serviço de importação irá ler todos os arquivos XML de maneira recursiva e
 
 ```json
 {
-    "ie" : "283426055",
+    "company_ie" : "283426055",
     "path" : "/sample-invoices",
+}
+```
+
+\
+Agora é a hora de gerar o arquivo texto com os cálculos dos valores a ressarcir ou restituir baseados em impostos pagos a mais ou a menos por substituição tributária.
+\
+```POST http://localhost:3001/save/```
+ 
+```Content-Type: application/json```
+    
+```Body raw (json)```
+
+```json
+{
+    "company_ie" : "283426055",
+    "start_date" : "2018-01-01",
+    "end_date" : "2023-01-01"
 }
 ```

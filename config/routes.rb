@@ -5,5 +5,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   post '/import', to: 'companies#import'
-  get '/import', to: 'companies#import_test'
+  post '/save', to: 'companies#save'
+  
 end
