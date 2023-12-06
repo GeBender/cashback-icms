@@ -22,7 +22,7 @@ class CompaniesController < ApplicationController
 
   def import_test
     ie = '000000011'
-    path = '/home/gebender/Documentos/Cashback/Clientes/Drogabem/Notas/full/2019/02-2019'
+    path = '/sample-invoices'
 
     ImportJob.perform_now(ie, path)
     render json: {
