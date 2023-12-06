@@ -13,7 +13,7 @@ class Company < ApplicationRecord
 
   def reg = '0000'
   def cod_ver = '17'
-  def cod_fin = '1' 
+  def cod_fin = '1'
   def reg_trib = '1'
   def tp_amb = '1'
 
@@ -35,4 +35,3 @@ class Company < ApplicationRecord
     end
   end
 end
- 
