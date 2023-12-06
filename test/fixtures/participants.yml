@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: 
+  document: '45453214001042'
+  UF: 'MS'
+  first: <%= (Time.now - 5.days).to_date %>
+  last: <%= (Time.now + 5.days).to_date %>
+  IE: '28123456789'
+two: 
+  document: '94373981191'
+  UF: 'RS'
+  first: <%= (Time.now - 5.days).to_date %>
+  last: <%= (Time.now + 5.days).to_date %>
+  IE: '82123456789'
+three: 
+  document: '45453214001043'
+  UF: 'MS'
+  first: <%= (Time.now - 5.days).to_date %>
+  last: <%= (Time.now + 5.days).to_date %>
+  IE: '29123456789'
+

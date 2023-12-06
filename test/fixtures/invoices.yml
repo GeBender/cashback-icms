@@ -1,0 +1,109 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: 
+  id: 1
+  company_id: 1
+  key: '35230344463156000184550070063199821761393082'
+  version: '4.00'
+  emit_cnpj: '45453214001042'
+  dest_document: '08821476000103'
+  cUF: '35'
+  cNF: '20836459'
+  natOp: 'VENDA'
+  mod: '55'
+  serie: '34'
+  nNF: '347779'
+  dhEmi: '2023-03-02 13:35:16'
+  tpNF: 1
+  idDest: 2
+  cMunFG: '3503208'
+
+two:
+  id: 2
+  company_id: 1
+  key: '35230344463156000184550070063199821761393083'
+  version: '4.00'
+  emit_cnpj: '08821476000103'
+  dest_document: '45453214001042'
+  cUF: '35'
+  cNF: '20836459'
+  natOp: 'VENDA'
+  mod: '55'
+  serie: '34'
+  nNF: '347779'
+  dhEmi: '2023-03-02 13:35:16'
+  tpNF: 1
+  idDest: 2
+  cMunFG: '3503208'
+three: 
+  id: 3
+  company_id: 1
+  key: '35230344463156000184550070063199821761393084'
+  version: '4.00'
+  emit_cnpj: '45453214001042'
+  dest_document: '08821476000103'
+  cUF: '35'
+  cNF: '20836459'
+  natOp: 'VENDA'
+  mod: '55'
+  serie: '34'
+  nNF: '347779'
+  dhEmi: '2023-03-02 13:35:16'
+  tpNF: 1
+  idDest: 2
+  cMunFG: '3503208'
+four: 
+  id: 4
+  company_id: 1
+  key: '35230344463156000184550070063199821761393085'
+  version: '4.00'
+  emit_cnpj: '45453214001043'
+  dest_document: '08821476000103'
+  cUF: '35'
+  cNF: '20836459'
+  natOp: 'VENDA'
+  mod: '55'
+  serie: '34'
+  nNF: '347779'
+  dhEmi: '2023-03-02 13:35:16'
+  tpNF: 0
+  idDest: 2
+  cMunFG: '3503208'
+five: 
+  id: 5
+  company_id: 1
+  key: '35230344463156000184550070063199821761393086'
+  version: '4.00'
+  emit_cnpj: '08821476000103'
+  dest_document: '94373981191'
+  cUF: '35'
+  cNF: '20836459'
+  natOp: 'VENDA'
+  mod: '55'
+  serie: '34'
+  nNF: '347779'
+  dhEmi: '2023-03-02 13:35:16'
+  tpNF: 0
+  idDest: 2
+  cMunFG: '3503208'
+six: 
+  id: 6
+  company_id: 1
+  key: '35230344463156000184550070063199821761393086'
+  version: '4.00'
+  emit_cnpj: '94373981191'
+  dest_document: '08821476000103'
+  cUF: '35'
+  cNF: '20836459'
+  natOp: 'VENDA'
+  mod: '55'
+  serie: '34'
+  nNF: '347779'
+  dhEmi: '2023-03-02 13:35:16'
+  tpNF: 1
+  idDest: 2
+  cMunFG: '3503208'

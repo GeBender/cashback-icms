@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: 
+  ean: '12345'
+  pmc: 5.55
+  start_date: <%= '05-05-2000'.to_date %>
+
+two: 
+  ean: '12345'
+  pmc: 7.77
+  start_date: <%= '05-05-2020'.to_date %>
+
+three: 
+  ean: '7891317009915'
+  pmc: 7.78
+  start_date: <%= '05-05-2020'.to_date %>
+

@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: 
+  start_date: <%= '2023-01-01'.to_date %>
+  ncm: 1234
+  internal_aliquot: 0.15
+
+two: 
+  start_date: <%= '2023-02-01'.to_date %>
+  ncm: 1234
+  internal_aliquot: 0.17

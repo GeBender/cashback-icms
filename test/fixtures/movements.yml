@@ -1,0 +1,159 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+zero:
+  id: 10
+  invoice_id: 3 # buy
+  item_id: 1
+  tpNF: 1
+  qTrib: 2
+  vUnTrib: 25.78
+  vDesc: 1
+  invoice_date: <%= '2023-01-01'.to_time %>
+  type_move: 0
+  CFOP: '5405'
+  CST: 60
+  vICMSST: 1.5
+  vICMSSTRet: 0.51
+  pICMS: 15
+  vBC: 0.56
+  vICMS: 8.65
+  vFCPST: 5.90
+  vFCPSTRet: 15.91
+  vBCST: 7.79
+  vBCSTRet: 17.93
+  pICMSST: 75.91
+  pST: 0.45
+one:
+  id: 1
+  invoice_id: 3 # buy
+  tpNF: 1
+  item_id: 1
+  qTrib: 2
+  vUnTrib: 25.78
+  invoice_date: <%= '2023-02-01'.to_time %>
+  type_move: 0
+  CFOP: '5405'
+  CST: 60
+  vICMSST: 1.5
+  vICMSSTRet: 0.51
+  pICMS: 15
+  vBC: 0.56
+  vICMS: 8.65
+  vFCPST: 5.90
+  vFCPSTRet: 15.91
+  uf_part: MS
+  vBCST: 7.79
+  vBCSTRet: 17.93
+  pICMSST: 75.91
+  pST: 0.45
+  batch: 2
+
+two:
+  id: 2
+  invoice_id: 2 #sale
+  item_id: 1
+  qTrib: 2
+  vUnTrib: 5.76
+  invoice_date: <%= '2023-01-01'.to_time %>
+  type_move: 1
+  CFOP: '5405'
+  CST: 60
+  vUnTrib: 5.78
+  vBCSTRet: 0.23
+  vICMSSTRet: 5.67
+  vFCPSTRet: 3.67
+  pICMS: 15
+  tpNF: 1
+  pST: 0.01
+
+three:
+  id: 3
+  invoice_id: 2 #sale
+  item_id: 1
+  qTrib: 1
+  invoice_date: <%= '2023-01-01'.to_time %>
+  type_move: 1
+  CFOP: '5405'
+  tpNF: 1
+  CST: 40
+  vUnTrib: 5.78
+
+four:
+  id: 4
+  tpNF: 0
+  invoice_id: 4
+  item_id: 1
+  qTrib: 1
+  invoice_date: <%= '2023-03-01'.to_time %>
+  type_move: 0
+  CFOP: '5405'
+  CST: 60
+  vICMSST: 12.54
+  vBCST: 7.59
+  vUnTrib: 5.78
+  vBCSTRet: 17.53
+
+five:
+  id: 5
+  invoice_id: 6 # sale
+  item_id: 1
+  qTrib: 1
+  invoice_date: <%= '2023-03-01'.to_time %>
+  type_move: 1
+  CFOP: '5405'
+  CST: 60
+  vICMSSTRet: 12.54
+  vFCPST: 1.23
+  vBCST: 0.79
+  vBCSTRet: 1.23
+  pICMSST: 17
+  vUnTrib: 5.78
+  vICMS: 2.45
+  pST: 15.5
+  tpNF: 1
+
+six:
+  id: 6
+  invoice_id: 5
+  item_id: 1
+  qTrib: 1
+  invoice_date: <%= '2023-03-01'.to_time %>
+  type_move: 1
+  CFOP: '5927'
+  CST: 60
+  vUnTrib: 5.78
+  pICMS: 15
+  pmc: 12.3
+  tpNF: 1
+
+buy_no_tax:
+  id: 7
+  invoice_id: 6
+  tpNF: 1
+  item_id: 2
+  qTrib: 1
+  invoice_date: <%= '2023-03-01'.to_time %>
+  type_move: 0
+  CFOP: '5927'
+  CST: 60
+  vUnTrib: 5.78
+
+pmc_and_batch:
+  id: 8
+  invoice_id: 5
+  type_move: 0
+  item_id: 2
+  qTrib: 2
+  invoice_date: <%= '2023-03-01'.to_time %>
+  CFOP: '597'
+  CST: 60
+  vUnTrib: 5.78
+  pICMS: 15
+  pmc: 12.3
+  batch: 2
+  aliquot: 0.15
+  tpNF: 1

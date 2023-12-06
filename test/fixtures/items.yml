@@ -1,0 +1,45 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the "{}" from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: 
+  id: 1
+  company_id: 1
+  cEAN: '7891317009915'
+  NCM: '30049039'
+  cProd: '303328'
+  xProd: 'MALE TRIMEBUTINA | 200MG 30CAP EUR-GENERICO'
+  CEST: '1300201'
+  uCom: UN
+  uTrib: UN
+  first: <%= (Time.now - 5.days).to_date %>
+  last: <%= (Time.now + 5.days).to_date %>
+
+two: 
+  id: 2
+  company_id: 1
+  cEAN: '789009915'
+  NCM: '30049039'
+  cProd: '3033'
+  xProd: 'MALE T-GENERICO'
+  CEST: '1300201'
+  uCom: UN
+  uTrib: UN
+  first: <%= (Time.now - 5.days).to_date %>
+  last: <%= (Time.now + 5.days).to_date %>
+
+three: 
+  id: 3
+  company_id: 1
+  cEAN: '7000089009'
+  NCM: '30049039'
+  cProd: '303333333'
+  xProd: 'MALE T-GENERICO FIXTURE'
+  CEST: '1300201'
+  uCom: UN
+  uTrib: UN
+  first: <%= (Time.now - 5.days).to_date %>
+  last: <%= (Time.now + 5.days).to_date %>
+

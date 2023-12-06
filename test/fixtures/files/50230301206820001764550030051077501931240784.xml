@@ -1,0 +1,481 @@
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe Id="NFe50230301206820001764550030051077501931240784" versao="4.00">
+      <ide>
+        <cUF>50</cUF>
+        <cNF>93124078</cNF>
+        <natOp>Venda de merc adq ou rec terc op suj reg S T contr</natOp>
+        <mod>55</mod>
+        <serie>3</serie>
+        <nNF>5107750</nNF>
+        <dhEmi>2023-03-31T22:59:59-03:00</dhEmi>
+        <dhSaiEnt>2023-04-01T22:59:59-03:00</dhSaiEnt>
+        <tpNF>1</tpNF>
+        <idDest>1</idDest>
+        <cMunFG>5002704</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>4</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>0</indFinal>
+        <indPres>9</indPres>
+        <indIntermed>0</indIntermed>
+        <procEmi>0</procEmi>
+        <verProc>Oobj-DFe</verProc>
+      </ide>
+      <emit>
+        <CNPJ>01206820001764</CNPJ>
+        <xNome>PANPHARMA DISTRIBUIDORA DE MEDICAMENTOS LTDA</xNome>
+        <enderEmit>
+          <xLgr>RUA PAULO FREIRE</xLgr>
+          <nro>595</nro>
+          <xBairro>JARDIM AMERICA</xBairro>
+          <cMun>5002704</cMun>
+          <xMun>Campo Grande</xMun>
+          <UF>MS</UF>
+          <CEP>79080040</CEP>
+          <fone>08009701100</fone>
+        </enderEmit>
+        <IE>283332719</IE>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CNPJ>08821476000103</CNPJ>
+        <xNome>DROGARIA DROGA BEM LTDA</xNome>
+        <enderDest>
+          <xLgr>AV TRES BARRAS</xLgr>
+          <nro>3284</nro>
+          <xBairro>LAGOA DOURADA</xBairro>
+          <cMun>5002704</cMun>
+          <xMun>Campo Grande</xMun>
+          <UF>MS</UF>
+          <CEP>79042530</CEP>
+          <fone>6733871000</fone>
+        </enderDest>
+        <indIEDest>1</indIEDest>
+        <IE>283426055</IE>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>303328</cProd>
+          <cEAN>7891317009915</cEAN>
+          <xProd>MALE TRIMEBUTINA | 200MG 30CAP EUR-GENERICO</xProd>
+          <NCM>30049039</NCM>
+          <CEST>1300201</CEST>
+          <indEscala>S</indEscala>
+          <CFOP>5405</CFOP>
+          <vSeg>1.10</vSeg>
+          <vOutro>0.30</vOutro>
+          <uCom>UN</uCom>
+          <qCom>1</qCom>
+          <vUnCom>65.9500000000</vUnCom>
+          <vProd>65.95</vProd>
+          <cEANTrib>7891317009915</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>65.9500000000</vUnTrib>
+          <vDesc>35.26</vDesc>
+          <indTot>1</indTot>
+          <rastro>
+            <nLote>832324</nLote>
+            <qLote>1</qLote>
+            <dFab>2022-08-11</dFab>
+            <dVal>2024-08-01</dVal>
+          </rastro>
+          <med>
+            <cProdANVISA>1004311440027</cProdANVISA>
+            <vPMC>79.66</vPMC>
+          </med>
+        </prod>
+        <imposto>
+          <IPI>
+            <IPI0>
+              <vIPI>1.23</vIPI>
+            </IPI0>
+          </IPI>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <pICMS>1.60</pICMS>
+              <vBC>9.76</vBC>
+              <vBCST>9.67</vBCST>
+              <vBCSTRet>59.76</vBCSTRet>
+              <pST>10.35</pST>
+              <vICMSSubstituto>4.17</vICMSSubstituto>
+              <vICMS>1.19</vICMS>
+              <pICMSST>2.49</pICMSST>
+              <vICMSST>0.19</vICMSST>
+              <vFCPST>9.19</vFCPST>
+              <vFCPSTRet>8.9</vFCPSTRet>
+              <vICMSSTRet>6.19</vICMSSTRet>
+            </ICMS60>
+          </ICMS>
+          <PIS>
+            <PISNT>
+              <CST>04</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>04</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+        <infAdProd>NEGAT MONIT PZ 60 D DESC 59.00% R$ 35.26 PF 59.76 BCST 59.76 ST 6.19 PMC 79.66
+          PMPF 0.00 REPASSE 0.00% R$ 0.00</infAdProd>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>3033</cProd>
+          <cEAN>789009915</cEAN>
+          <xProd>MALE T-GENERICO</xProd>
+          <NCM>30049039</NCM>
+          <CEST>1300201</CEST>
+          <indEscala>S</indEscala>
+          <CFOP>5405</CFOP>
+          <uCom>UN</uCom>
+          <qCom>1</qCom>
+          <vUnCom>65.9500000000</vUnCom>
+          <vProd>65.95</vProd>
+          <cEANTrib>7891317009915</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>65.9500000000</vUnTrib>
+          <vDesc>35.26</vDesc>
+          <indTot>1</indTot>
+          <rastro>
+            <nLote>832324</nLote>
+            <qLote>1</qLote>
+            <dFab>2022-08-11</dFab>
+            <dVal>2024-08-01</dVal>
+          </rastro>
+          <med>
+            <cProdANVISA>1004311440027</cProdANVISA>
+            <vPMC>79.66</vPMC>
+          </med>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <vBCSTRet>59.76</vBCSTRet>
+              <pST>10.35</pST>
+              <vICMSSubstituto>4.17</vICMSSubstituto>
+              <vICMSSTRet>6.19</vICMSSTRet>
+            </ICMS60>
+          </ICMS>
+          <PIS>
+            <PISNT>
+              <CST>04</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>04</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+        <infAdProd>NEGAT MONIT PZ 60 D DESC 59.00% R$ 35.26 PF 59.76 BCST 59.76 ST 6.19 PMC 79.66
+          PMPF 0.00 REPASSE 0.00% R$ 0.00</infAdProd>
+      </det>
+      <det nItem="3">
+        <prod>
+          <cProd>303333333</cProd>
+          <cEAN>7000089009</cEAN>
+          <xProd>MALE T-GENERICO FIXTURE</xProd>
+          <NCM>30049039</NCM>
+          <CEST>1300201</CEST>
+          <indEscala>S</indEscala>
+          <CFOP>5405</CFOP>
+          <uCom>UN</uCom>
+          <qCom>1</qCom>
+          <vUnCom>65.9500000000</vUnCom>
+          <vProd>65.95</vProd>
+          <cEANTrib>7891317009915</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>65.9500000000</vUnTrib>
+          <vDesc>35.26</vDesc>
+          <indTot>1</indTot>
+          <rastro>
+            <nLote>832324</nLote>
+            <qLote>1</qLote>
+            <dFab>2022-08-11</dFab>
+            <dVal>2024-08-01</dVal>
+          </rastro>
+          <med>
+            <cProdANVISA>1004311440027</cProdANVISA>
+            <vPMC>79.66</vPMC>
+          </med>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <vBCSTRet>59.76</vBCSTRet>
+              <pST>10.35</pST>
+              <vICMSSubstituto>4.17</vICMSSubstituto>
+              <vICMSSTRet>6.19</vICMSSTRet>
+            </ICMS60>
+          </ICMS>
+          <PIS>
+            <PISNT>
+              <CST>04</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>04</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+        <infAdProd>NEGAT MONIT PZ 60 D DESC 59.00% R$ 35.26 PF 59.76 BCST 59.76 ST 6.19 PMC 79.66
+          PMPF 0.00 REPASSE 0.00% R$ 0.00</infAdProd>
+      </det>
+      <det nItem="4">
+        <prod>
+          <cProd>03333333</cProd>
+          <cEAN>700089009</cEAN>
+          <xProd>T-GENERICO FIXTURE</xProd>
+          <NCM>3049039</NCM>
+          <CEST>100201</CEST>
+          <indEscala>S</indEscala>
+          <CFOP>5405</CFOP>
+          <uCom>UN</uCom>
+          <qCom>1</qCom>
+          <vUnCom>65.9500000000</vUnCom>
+          <vProd>65.95</vProd>
+          <cEANTrib>7891317009915</cEANTrib>
+          <uTrib>UN</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>65.9500000000</vUnTrib>
+          <vDesc>35.26</vDesc>
+          <indTot>1</indTot>
+          <rastro>
+            <nLote>832324</nLote>
+            <qLote>1</qLote>
+            <dFab>2022-08-11</dFab>
+            <dVal>2024-08-01</dVal>
+          </rastro>
+          <med>
+            <cProdANVISA>1004311440027</cProdANVISA>
+            <vPMC>79.66</vPMC>
+          </med>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS60>
+              <orig>0</orig>
+              <CST>60</CST>
+              <vBCSTRet>59.76</vBCSTRet>
+              <pST>10.35</pST>
+              <vICMSSubstituto>4.17</vICMSSubstituto>
+              <vICMSSTRet>6.19</vICMSSTRet>
+            </ICMS60>
+          </ICMS>
+          <PIS>
+            <PISNT>
+              <CST>04</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>04</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+        <infAdProd>NEGAT MONIT PZ 60 D DESC 59.00% R$ 35.26 PF 59.76 BCST 59.76 ST 6.19 PMC 79.66
+          PMPF 0.00 REPASSE 0.00% R$ 0.00</infAdProd>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>0.00</vBC>
+          <vICMS>0.00</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vFCPUFDest>0.00</vFCPUFDest>
+          <vICMSUFDest>0.00</vICMSUFDest>
+          <vICMSUFRemet>0.00</vICMSUFRemet>
+          <vFCP>0.00</vFCP>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vFCPST>0.00</vFCPST>
+          <vFCPSTRet>0.00</vFCPSTRet>
+          <vProd>65.95</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>35.26</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vIPIDevol>0.00</vIPIDevol>
+          <vPIS>0.00</vPIS>
+          <vCOFINS>0.00</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>30.69</vNF>
+          <vTotTrib>0.00</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>0</modFrete>
+        <transporta>
+          <CNPJ>15488297001800</CNPJ>
+          <xNome>SAO GABRIEL TRANSPORTES EIRELI</xNome>
+          <IE>284390879</IE>
+          <xEnder>R ARICA 33, SALA 01</xEnder>
+          <xMun>CAMPO GRANDE</xMun>
+          <UF>MS</UF>
+        </transporta>
+        <vol>
+          <qVol>0</qVol>
+          <esp>CAIXA(S)</esp>
+          <marca>REMEDIOS</marca>
+          <nVol>0</nVol>
+          <pesoL>0.000</pesoL>
+          <pesoB>0.042</pesoB>
+        </vol>
+      </transp>
+      <cobr>
+        <fat>
+          <nFat>005107750</nFat>
+          <vOrig>65.95</vOrig>
+          <vDesc>35.26</vDesc>
+          <vLiq>30.69</vLiq>
+        </fat>
+        <dup>
+          <nDup>001</nDup>
+          <dVenc>2023-05-30</dVenc>
+          <vDup>30.69</vDup>
+        </dup>
+      </cobr>
+      <pag>
+        <detPag>
+          <indPag>1</indPag>
+          <tPag>15</tPag>
+          <vPag>30.69</vPag>
+        </detPag>
+        <vTroco>0.00</vTroco>
+      </pag>
+      <infAdic>
+        <infAdFisco>Total de IPI 0.00 vFCP 0.00 vFCPST 0.00CODIGO DO CLIENTE 0000101406 ITINERARIO
+          569340 VDA.Normal TOTAL EM UNIDADES 1 ST MEDICAMENTOS CONF CONV 76/94 E DECRETO
+          12.415/2007 ST PERFUMARIA CONF ITEM XVI DO SUB ANEXO UNICO AO ANEXO 3 DO RICMS/MS. PRACA
+          DE PAGAMENTO SAO PAULO SP PROM F154 Fatura/Duplicata sera enviada por e mail Quantidade de
+          volumes vide NF 005107749 ORD 3093330148 / 0494579301 / 5004490804 BC ICMS Cli 24,50 ICMS
+          Cli 4,17 BC ICMS ST 59.76 ICMS ST CLIENTE 6.19 BC FCP Cli 0,00 FCP Cli 0,00 BC ST Cli
+          59,76 ST Cli 6,19Total de IPI 0.00 vFCP 0.00 vFCPST 0.00</infAdFisco>
+        <obsCont xCampo="ROTA">
+          <xTexto>569340</xTexto>
+        </obsCont>
+        <obsCont xCampo="CODIGO_DO_GIRO">
+          <xTexto>569340 - 569_340 - 0494579301</xTexto>
+        </obsCont>
+        <obsCont xCampo="vanPedido">
+          <xTexto>EPAN-2.1.11</xTexto>
+        </obsCont>
+        <obsCont xCampo="loginPedido">
+          <xTexto>005304</xTexto>
+        </obsCont>
+      </infAdic>
+      <infRespTec>
+        <CNPJ>09553244000176</CNPJ>
+        <xContato>Hugo Eduardo Ramos dos Santos</xContato>
+        <email>suporte@oobj.com.br</email>
+        <fone>6230865750</fone>
+      </infRespTec>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#NFe50230301206820001764550030051077501931240784">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>hrBVA4v/p7SUsapA5pnIVUQOa7E=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>
+        Jns66XQ++5RIzc/PCmW2CxR7pJ3QOpR/W0nze8Z9PG5SxhHOvj0T1rBuipijXId/LHid4moX2WrT2q0D44HqwU68Be9QNnco62vQkxAtF1deUemaJBaUh9TYPAqPzqGIYEsROJwlV1uQQ3lHH/dLeL/B+OXa0Pb88AZQ7TuITDMOyc/dvwk77m+d3Jo2hELlol/XoJDjPQHxw6nYLOKFJBwL13cqLObXhce4R3z2HwxoLpfTB71hfumz2ny4swL0apIhCC8rE2QQfYIhDoabxEbrDitiIk1W/jL9xyzyuDMFXdM7IdlP3hhiVrR0bGZepiSg2uYz06UXTdw5A9fp4Q==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>
+            MIIHTTCCBTWgAwIBAgIIEd4iESE0MFQwDQYJKoZIhvcNAQELBQAwWTELMAkGA1UEBhMCQlIxEzARBgNVBAoTCklDUC1CcmFzaWwxFTATBgNVBAsTDEFDIFNPTFVUSSB2NTEeMBwGA1UEAxMVQUMgU09MVVRJIE11bHRpcGxhIHY1MB4XDTIyMTEyMTE0MzAwMFoXDTIzMTEyMTE0MzAwMFowgfExCzAJBgNVBAYTAkJSMRMwEQYDVQQKEwpJQ1AtQnJhc2lsMQswCQYDVQQIEwJTUDEQMA4GA1UEBxMHSnVuZGlhaTEeMBwGA1UECxMVQUMgU09MVVRJIE11bHRpcGxhIHY1MRcwFQYDVQQLEw4wOTQ2MTY0NzAwMDE5NTETMBEGA1UECxMKUHJlc2VuY2lhbDEaMBgGA1UECxMRQ2VydGlmaWNhZG8gUEogQTExRDBCBgNVBAMTO1BBTlBIQVJNQSBESVNUUklCVUlET1JBIERFIE1FRElDQU1FTlRPUyBMVERBOjAxMjA2ODIwMDAwNTIwMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhzAjjlGzoGLP2X4C6p1oWw4R351jAYbmDaX7DC9RDijEk4cUxywy/JZyo4npl2HzO9mWi4QRLjBzgL2JEKv4kuL71e4wduFoxmHVGB6yBXapzSPLorKaueULfGsxuLBlaUc3BTC6cLqM+0s2famtrbJY3km0mGYmKWpsKl/1G7I7E/MRd5xWNWC9QUHXgpXAhjbuWoUQ8ZgJPvJTIa3IKrBQ0Wjh18dMQpFq2PGF/D+U+PF1x5Wm8Lm9b4GVrBEhJvgsVFuHjRgY3fy5Dyhpu1lwygES6bYau2CHwhgYNeHwVQ0MjwVHpLOWb0c30Fu4/1V/I3cuDUaGHvLYugJTFQIDAQABo4ICfjCCAnowCQYDVR0TBAIwADAfBgNVHSMEGDAWgBTFUu0lgAnfnILIn0fG3bRfMd25sTBUBggrBgEFBQcBAQRIMEYwRAYIKwYBBQUHMAKGOGh0dHA6Ly9jY2QuYWNzb2x1dGkuY29tLmJyL2xjci9hYy1zb2x1dGktbXVsdGlwbGEtdjUucDdiMIG5BgNVHREEgbEwga6BHWNhbWlsYS5oYXJtYW5pQGdydXBvc2MuY29tLmJyoB8GBWBMAQMCoBYTFEdJTEJFUlRPIE1BWUVSIEZJTEhPoBkGBWBMAQMDoBATDjAxMjA2ODIwMDAwNTIwoDgGBWBMAQMEoC8TLTIzMDIxOTU3MzY5NzM3NDI5MDQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMKAXBgVgTAEDB6AOEwwwMDAwMDAwMDAwMDAwXQYDVR0gBFYwVDBSBgZgTAECASYwSDBGBggrBgEFBQcCARY6aHR0cDovL2NjZC5hY3NvbHV0aS5jb20uYnIvZG9jcy9kcGMtYWMtc29sdXRpLW11bHRpcGxhLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwgYwGA1UdHwSBhDCBgTA+oDygOoY4aHR0cDovL2NjZC5hY3NvbHV0aS5jb20uYnIvbGNyL2FjLXNvbHV0aS1tdWx0aXBsYS12NS5jcmwwP6A9oDuGOWh0dHA6Ly9jY2QyLmFjc29sdXRpLmNvbS5ici9sY3IvYWMtc29sdXRpLW11bHRpcGxhLXY1LmNybDAdBgNVHQ4EFgQU9nC7ZDPNX0v7KM75gW62ciYKSUowDgYDVR0PAQH/BAQDAgXgMA0GCSqGSIb3DQEBCwUAA4ICAQBBvqfdZXvTNdPf2KlL+lmxeKCZ2IadXPrx8ce/UWRbZlja+2kg3q5Y6bHn6jH1pcN9zGdwfYCoz7LFXX83ttcbmeNR9UCuIoiIipSjBI3EQONAz/of4kJKjeg2Yj/mlOpM5TpuomGy9OQf3ZNPIeVCJqjRq42Nt3a80dsgF4teHuYKGkWZkLkqveZID1mtszrdavEwnE535/utW/hB3UEaT2eQ98j++BpiBjfbFrGIP3PaclGKoXfoUW5uSF+jwwSkPcGe1Ncq80Stol1nrFsMeUV+rED2IeXIuieXtf5oKdTF3Z8uSXN8es5FfqR4UTUabNflhyhE19EqR4yxpYNW2Vq7hZdhDRu6D/HrKImgcNNTpW5z06B9Zy8pNxw0hSw4r+8kTlRbc2W6Sll3fyhWkObIC4soi/QfUSUctoIQ7H7T2uv1Tvo4VDaVBHUT4+EhIbIc3dUZc03sekDjxwAjOnC86P37vDxbh3Gb63y2CSdcPJCoAV42qwMQ++6xBOkXiTkE7sh05TzyQ2Qgf3Gnft5bDjLBBJjaShX4H+e2fuLfMCYt9rCIe2xE/ICu2z8uIXUR+X+2KdRkIPMO1KuA7wTB350Fm2VkIvFjwbC4FPMO3sOYyDlKBINqyY+Da+YJdOJrokEaWdsf4Tp0rh9iTHY+KXqtMG35J5kSUnP1og==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+    <infProt Id="ID150230011968241">
+      <tpAmb>1</tpAmb>
+      <verAplic>MS_6.0.12</verAplic>
+      <chNFe>50230301206820001764550030051077501931240784</chNFe>
+      <dhRecbto>2023-04-01T06:47:10-04:00</dhRecbto>
+      <nProt>150230011968241</nProt>
+      <digVal>hrBVA4v/p7SUsapA5pnIVUQOa7E=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#ID150230011968241">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>xTFqg2yuHkA9Vg1bs0BkyTtE4sE=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>aTdvXpSFYIJPA8gdHjbwx5MmHwnjWgs3bYW22QjwUMdK25vc9RyYDmM5zqcEAEfWazb9yBcbaO+t
+        FeyA50xPUvWYF0lgWhmsUcLm0tyuq/R3wtQD6l++ujN3GSp+obeGzHZgoVDGkgHWRqqi46x35jhA
+        S+GB68e3WMGopQmMOOwgtY45XAsdORfl23tdEakHT6Uh1D6ubgn2kQHFi9mYOIdRSc2cJ7ezIMS6
+        OjWszy8TnoA/c9K4KJCef0QpyP4LZ17IUNu/FCCWuFbFe2AFuoYKjoGZJO3qSYr4hirfa5iSpxD0
+        Q4RBXnAX/ceQVhJsFAWwUQWeGwcdbwqWX2AAVQ==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIHaDCCBVCgAwIBAgIIEd4iCDBeiP4wDQYJKoZIhvcNAQELBQAwWTELMAkGA1UEBhMCQlIxEzAR
+            BgNVBAoTCklDUC1CcmFzaWwxFTATBgNVBAsTDEFDIFNPTFVUSSB2NTEeMBwGA1UEAxMVQUMgU09M
+            VVRJIE11bHRpcGxhIHY1MB4XDTIyMDkwOTE1MzMwMFoXDTIzMDkwOTE1MzMwMFowgfcxCzAJBgNV
+            BAYTAkJSMRMwEQYDVQQKEwpJQ1AtQnJhc2lsMQswCQYDVQQIEwJNUzEVMBMGA1UEBxMMQ2FtcG8g
+            R3JhbmRlMR4wHAYDVQQLExVBQyBTT0xVVEkgTXVsdGlwbGEgdjUxFzAVBgNVBAsTDjA5NDYxNjQ3
+            MDAwMTk1MRkwFwYDVQQLExBWaWRlb2NvbmZlcmVuY2lhMRowGAYDVQQLExFDZXJ0aWZpY2FkbyBQ
+            SiBBMTE/MD0GA1UEAxM2U0VGQVogLSBTRUNSRVRBUklBIERFIEVTVEFETyBERSBGQVpFTkRBOjAy
+            OTM1ODQzMDAwMTA1MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgu6q52qHe4EHm4tW
+            /vBtkg7q15qmdZkyPBygFT34pGeGuyKJYyGsX8euiZXdUD1ymgEMiQlOZ2V2pLTb46CQqf0najyO
+            1jpSz/Ik9JZvBMKOL6yT6/Yn1Svfgg+rB8siToExKI+e9mlliRZ+PaOEqwOd4f1Bjs3nMxdN6oPo
+            LgbIK7+OFNT1eSYjA6eKzp/pT3yKF1HaSTTnpBMb47oHV/uMbYA+ZEkXfNFoVxw+nbA0KDo3TPjs
+            ddR4+xfgfw0YG0jrI0s632/6ywTafdGeA1fqzQfb2FUOXUj5ItxjW+s1ssR5g/FrdF6KH3foaZ97
+            +zmqdlp3m+9u4ZKSa8pYrQIDAQABo4ICkzCCAo8wCQYDVR0TBAIwADAfBgNVHSMEGDAWgBTFUu0l
+            gAnfnILIn0fG3bRfMd25sTBUBggrBgEFBQcBAQRIMEYwRAYIKwYBBQUHMAKGOGh0dHA6Ly9jY2Qu
+            YWNzb2x1dGkuY29tLmJyL2xjci9hYy1zb2x1dGktbXVsdGlwbGEtdjUucDdiMIHOBgNVHREEgcYw
+            gcOBJGNlcnRpZmljYWRvZGlnaXRhbEBmYXplbmRhLm1zLmdvdi5icqAtBgVgTAEDAqAkEyJDQUlP
+            IEdSQUNPIFBPTVBFVSBTQUJJTk8gREUgQVJBVUpPoBkGBWBMAQMDoBATDjAyOTM1ODQzMDAwMTA1
+            oDgGBWBMAQMEoC8TLTE0MDExOTc3NjkyNjYzOTUxNTMwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw
+            MKAXBgVgTAEDB6AOEwwwMDAwMDAwMDAwMDAwXQYDVR0gBFYwVDBSBgZgTAECASYwSDBGBggrBgEF
+            BQcCARY6aHR0cDovL2NjZC5hY3NvbHV0aS5jb20uYnIvZG9jcy9kcGMtYWMtc29sdXRpLW11bHRp
+            cGxhLnBkZjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwgYwGA1UdHwSBhDCBgTA+oDyg
+            OoY4aHR0cDovL2NjZC5hY3NvbHV0aS5jb20uYnIvbGNyL2FjLXNvbHV0aS1tdWx0aXBsYS12NS5j
+            cmwwP6A9oDuGOWh0dHA6Ly9jY2QyLmFjc29sdXRpLmNvbS5ici9sY3IvYWMtc29sdXRpLW11bHRp
+            cGxhLXY1LmNybDAdBgNVHQ4EFgQUWCkRRoyyEoieG+c7I0BTBfZmQCIwDgYDVR0PAQH/BAQDAgXg
+            MA0GCSqGSIb3DQEBCwUAA4ICAQBGpM63H/Go2j3yZWLvkzvXB5wk01iIrXBZqEIkjJSBKECR9aeM
+            SIPv80G4sOvkc6hNTTq8E53tMMuCaTvOoK8wLIgQcAaHOhWEzL3M8KSCczjWgCrm/M7lB25BT9J9
+            fPeYfwwujNw9GKvZGuwmr4kaDJyp3Vq+GNBoilJ76Fmp4fcCjlCzOyJBp6PolYc1UlQe2FitlSg+
+            5HraMuyQyHO1Jw7Zlcf6iKM4P+3Oi1TYLlfvvPjeJ9EcbQ2DWDCj1bDk3zGdO/lNTFxc4d9Sns1a
+            +evNaIgX00n7U7rByMZzHQ4J3l9CpvHM+r5zyKeobu5fObhPZdgLK9s8gWEbk8FqVd8vnbj67Y1G
+            VJxLNt/PGDMtXBuSUarEYsR8kQBICIpE707KMldMpT3CnLzgPzOh0ShPz9wsXHkQ60tEYUBkqrgS
+            0pNsHKsalY5sLuNNTN3k9YLpJMfst5/WKC0E5Fd0rKs51+eJwingnxyizhe/eDOdkJr+Ol2VMS3K
+            nQCeZGq8WsQs+iozZ5eP9CDdTD+L5l/X7LmsLdVWGGlv6GFNqSOLcTtKiNRPEFFGE6v0grPuNUrD
+            BfjtqcImSfXClD7l//LmHDxgaIC9WIyFUKM7ttPejO+YMbI1+yY+EwqJrbv7fao6GAVGT5TlCL8D
+            spqCI4ToTPLl5QaG+28Ht9fQBQ==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </protNFe>
+</nfeProc>
